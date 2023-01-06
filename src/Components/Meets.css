@@ -1,0 +1,57 @@
+.meets{
+    flex: 0.3;
+}
+.meets > p{
+    text-align: center;
+    color: #18385c;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 10px;
+
+}
+.toggleOption{
+    border-radius: 8px;
+    padding: 2px 15px;
+    border: 1px solid #18385c;
+    margin: 15px 26px;
+    background-color: white;
+}
+/* .toggleOption ::active{
+    border: 2px solid #18385c;
+} */
+.toggleOption2{
+    border: 1px solid #18385c;
+    background-color: white;
+    width: 50%;
+    padding: 5px 0px;
+}
+.toggleOption2:active, 
+.toggleOption2:focus 
+{
+    background-color: #18385c;
+    color: white;
+}
+.toggleOption:active, 
+.toggleOption:focus 
+{
+    border: 2px solid #18385c;
+}
+
+.outline{ 
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 0px !important;
+    margin: 2px 10px;
+    box-shadow: 2px 4px 10px -9px rgba(0,0,0,0.7);
+    border-radius: 20px;
+    border: 1px solid grey;
+} 
+
+/* .calender{ */
+    /* margin: 10px 30px; */
+    /* padding: 2px;
+} */
+
+
+
+

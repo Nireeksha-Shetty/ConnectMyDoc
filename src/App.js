@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Sidebar from './Components/Sidebar';
 import Chat from './Components/Chat';
+import Meets from './Components/Meets';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Sidebar/>
         {/* Chat */}
         <Chat/>
+        <Meets/>
       </div>
     </div>
   );
